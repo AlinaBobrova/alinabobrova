@@ -6,15 +6,15 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	color: #303089;
+	background-color: #B3B3D7;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #FCE3CD;
+	background-image: linear-gradient(#FCE3CD, white);
 }
 
 .resume-main {
@@ -48,4 +48,12 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.language-progress {
+	background-color:#EAD6FA !important;
+}
+.font_new {
+	font-family: 'Climate Crisis', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Tilt Neon', cursive;
 }
